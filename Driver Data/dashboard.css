@@ -192,9 +192,13 @@ th, td {
 
 th {
   color: #ddd;
-  background-color: #09093e;
+  background-color: #343484;
   font-weight: bold;
+  border-radius: 18px;
 }
 
+.tbody {
+  color: white;
+}
 
 

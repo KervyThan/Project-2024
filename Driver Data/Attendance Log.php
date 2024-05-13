@@ -12,7 +12,7 @@
         <div class="logo-section">
             <img src="images/City Logo.jpg" alt="Logo" class="logo">
          </div>
-        <h1 class="logo">TODA</h2>
+        <h1 class="logo">TODA</h1>
         <nav class="navbar">
         <ul class="links">
           <li><a href="home.php">Home</a></li>

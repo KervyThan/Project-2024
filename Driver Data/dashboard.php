@@ -47,8 +47,8 @@
 
     <div class="container">
         <h1>ROUT SCHEDULE</h1>
-        
-        <table>
+
+        <table class="tbody">
             <thead>
                 <tr>
                     <th>Name</th>
