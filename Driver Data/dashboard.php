@@ -35,74 +35,55 @@
       </div>
     </header>
 
-    <div class="container">
-        <h2>Phase 1</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>TODA ID</th>
-                    <th>Date</th>
-                </tr>
-            </thead>    
-            <tbody>
-                    <td>Kervy Jamito</td>
-                    <td>TD8569721</td>
-                    <td>05-12-24</td>
-            </tbody>
-        </table>
+    <div class="ContainerA">
+    <h1 class="centerB">Dashboard</h1>
     </div>
 
     <div class="container">
-        <h2>Phase 2</h2>
+
         <table>
             <thead>
                 <tr>
                     <th>Name</th>
                     <th>TODA ID</th>
+                    <th>ROUTE</th>
                     <th>Date</th>
                 </tr>
             </thead>    
             <tbody>
-            <link rel="icon" href="images/Muntinlupa.jpg">
                     <td>Kervy Jamito</td>
-                    <td>TD8569721</td>
+                    <td>TD8569732</td>
+                    <td>Phase 1</td>
                     <td>05-12-24</td>
             </tbody>
-        </table>
-    </div>
-
-    <div class="container">
-        <h2>Phase 3</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>TODA ID</th>
-                    <th>Date</th>
-                </tr>
-            </thead>    
             <tbody>
-                    <td>Kervy Jamito</td>
-                    <td>TD8569721</td>
+                    <td>Andrei Brosas</td>
+                    <td>TD8569733</td>
+                    <td>Phase 2</td>
                     <td>05-12-24</td>
             </tbody>
-        </table>
-    </div>
-
-    <div class="container">
-        <h2>Phase 4</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>TODA ID</th>
-                    <th>Date</th>
-                </tr>
-            </thead>    
             <tbody>
-                    <td>Kervy Jamito</td>
+                    <td>Angelo Angeles</td>
+                    <td>TD8569734</td>
+                    <td>Phase 3</td>
+                    <td>05-12-24</td>
+            </tbody>
+            <tbody>
+                    <td>Mark Lance Brioso</td>
+                    <td>TD8569735</td>
+                    <td>Phase 4</td>
+                    <td>05-12-24</td>
+            </tbody>
+            <tbody>
+                    <td>Karl Brian Balang</td>
+                    <td>TD8569736</td>
+                    <td>Phase 2</td>
+                    <td>05-12-24</td>
+            </tbody>
+            <tbody>
+                    <td>Jaymark Moreno</td>
                     <td>TD8569721</td>
+                    <td>Phase 4</td>
                     <td>05-12-24</td>
             </tbody>
         </table>
