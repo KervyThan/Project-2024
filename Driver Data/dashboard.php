@@ -6,6 +6,8 @@
     <title>TODA | Dashboard</title>
     <link rel="icon" href="images/City Logo.jpg">
     <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
   </head>
   <body>
     <header class="header-container">
@@ -35,12 +37,17 @@
       </div>
     </header>
 
-    <div class="ContainerA">
-    <h1 class="centerB">Dashboard</h1>
-    </div>
+
+
+    <main>
+    <div class="homecontainer">
+        <h1><i class="fas fa-columns"></i>Dashboard</h1>
+        <p class="name">John Kervy Jamito</p>
+      </div>
 
     <div class="container">
-
+        <h1>ROUT SCHEDULE</h1>
+        
         <table>
             <thead>
                 <tr>
@@ -88,5 +95,6 @@
             </tbody>
         </table>
     </div>
+    </main>
   </body>
 </html>

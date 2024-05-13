@@ -129,7 +129,7 @@ body {
     font-size: 1rem;
     padding: 10px 15px;
     border: 1px solid #fff; /* Border around the logout button */
-    border-radius: 5px; /* Optional: Adds rounded corners */
+    border-radius: 8px; /* Optional: Adds rounded corners */
     transition: 0.2s ease;
 }
 
@@ -138,15 +138,41 @@ body {
     color: #212b38; /* Change text color on hover */
 }
 
+/*dashboardd container*/
+.homecontainer{
+  display: flex;
+  background-color: #212b38;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  width: 70%;
+  height: 50px;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fas.fa-columns{
+  color:#16a085;
+}
+
+.name {
+  color:#16a085;
+}
+
 
 /* Container Styles */
 .container {
   display: flex;
-  background-color: #1e1e5d;
+  background-color: #212b38;
   padding: 10px;
-  width: 60%;
+  width: 70%;
+  height: 500px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -166,19 +192,9 @@ th, td {
 
 th {
   color: #ddd;
-  background-color: #000000;
+  background-color: #09093e;
   font-weight: bold;
 }
 
-/*dashboardd container*/
-.ContainerA {
-  display: flex;
-  width: 70%;
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  background-color: rgb(11, 108, 120);
-  margin-top: 20px;
-  margin: auto;
-}
+
 
