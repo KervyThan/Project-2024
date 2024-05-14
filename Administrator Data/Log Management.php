@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance Management</title>
     <link rel="icon" href="images/City Logo.jpg">
-    <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="Log Management.css">
 </head>
 <body>
     <header class="header-container">
