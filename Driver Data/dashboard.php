@@ -41,7 +41,7 @@
 
     <main>
     <div class="homecontainer">
-        <h1><i class="fas fa-columns"></i>Dashboard</h1>
+        <h1 class="Dashboard1"><i class="fas fa-columns"></i>Dashboard</h1>
         <p class="name">John Kervy Jamito</p>
       </div>
 

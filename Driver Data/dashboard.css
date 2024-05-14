@@ -141,7 +141,7 @@ body {
 /*dashboardd container*/
 .homecontainer{
   display: flex;
-  background-color: #212b38;
+  background-color: #2d3250;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -161,6 +161,10 @@ body {
 
 .name {
   color:#16a085;
+}
+
+.Dashboard1 {
+  color: #f9b17a;
 }
 
 

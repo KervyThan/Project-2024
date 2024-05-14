@@ -38,7 +38,7 @@
     </header>
     <main>
       <div class="homecontainer">
-        <h1><i class="fas fa-home"></i> Home</h1>
+        <h1 class="home1"><i class="fas fa-home"></i> Home</h1>
         <p class="name">John Kervy Jamito</p>
       </div>
 

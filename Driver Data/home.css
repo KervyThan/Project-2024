@@ -142,7 +142,7 @@ body {
 
 .homecontainer{
   display: flex;
-  background-color: #212b38;
+  background-color: #2d3250;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -164,6 +164,10 @@ body {
   color:#16a085;
 }
 
+.home1 {
+  color: #f9b17a;
+}
+
 
 .blankcontainer {
   border: none;
@@ -173,7 +177,7 @@ body {
   height: 500px;
   border-radius: 9px;
   padding: 10px;
-  background-color: #212b38;
+  background-color: #2d3250;
   display: flex;
 
 }
