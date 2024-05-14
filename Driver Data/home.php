@@ -29,7 +29,7 @@
             </div>
           </li>
           <li><a href="information.php">Information</a></li>
-          <li><a href="log.php">Attendance Log</a></li>
+          <li><a href="Attendance Log.php">Attendance Log</a></li>
         </ul>
         </nav>
       <div class="logout-btn">
