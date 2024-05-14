@@ -18,13 +18,13 @@ nav{
   bottom: 0;
   height: 100vh;
   left: 0;
-  width: 90px;
+  width: 350px;
   background: #ffffff;
   overflow: hidden;
   transition: 1s;
 }
 nav:hover{
-  width: 280px;
+  width: 1150px;
   transition: 1s;
 }
 .logo{
@@ -142,4 +142,51 @@ th {
   background-color: #f2f2f2;
 }
 
+/* announcement and update display */
+
+main {
+  margin: 0;
+  padding: 0;
+  }
+  
+  section {
+    width: 90%;
+    height: 100vh;
+  }
+  
+  .leftbox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .leftcontent {
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 40px;
+    transition: 1s;
+  }
+  
+  section .leftbox .leftcontent:hover {
+    background: #6284e8;
+  }
+  
+  section .leftbox .leftcontent h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  section .leftbox .leftcontent p {
+    margin: 10px 0 0;
+    padding: 0;
+  
+  }
+
+  .upddetails {
+    color: #fff;
+  }
 
