@@ -21,7 +21,7 @@
         </div>
 
 
-        <form action="admin.php" method="POST">
+        <form action="Admin.php" method="POST">
            <div class="row">
            <i class="fas fa-user"></i>
            <input type="text" name="username" placeholder="Username ID" required>

@@ -149,7 +149,7 @@ body {
   width: 70%;
   height: 50px;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 9px;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -172,7 +172,7 @@ body {
   width: 70%;
   height: 500px;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 9px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -193,9 +193,13 @@ th, td {
 
 th {
   color: #ddd;
-  background-color: #09093e;
+  background-color: #171766;
   font-weight: bold;
+  border-radius: 18px;
 }
 
+.tbody {
+  color: white;
+}
 
 

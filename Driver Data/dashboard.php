@@ -46,7 +46,7 @@
       </div>
 
     <div class="container">
-      <table>
+         <table class="tbody">
             <thead>
                 <tr>
                     <th>Name</th>
