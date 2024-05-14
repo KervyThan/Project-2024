@@ -29,7 +29,7 @@ body {
 }
 
 body {
-  background-color: #1e1e5d; 
+  background-color: #37465b;
 }
 
   /* INFORMATION SECTION */
@@ -40,11 +40,11 @@ body {
   .users .card{
     width: 25%;
     margin: 10px;
-    background: #37465b;
+    background: #171e27;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 10px #1f2833;
+    box-shadow: 10px #15191f;
   }
   .users .card img{
     width: 150px;
