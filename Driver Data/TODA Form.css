@@ -93,6 +93,7 @@ form .row input:focus{
 form .row input::placeholder{
   color: #999;
 }
+
 .wrapper form .row i{
   position: absolute;
   width: 47px;

@@ -14,8 +14,30 @@
         </div>
         <h1 class="header-title">Records</h1>
     </header>
-    <body>
-    </body>
+
+    <form>
+          <div class="button">
+            <input type="text" placeholder="Username ID" required>
+          </div>
+    </form>
+
+    <div class="container"></div>
+
+    <div class="Boxcontainer">
+  <div class="box">
+    <h2>Container 1</h2>
+  </div>
+  <div class="box">
+    <h2>Container 2</h2>
+  </div>
+  <div class="box">
+  </div>
+  <div class="box">
+    <h2>Container 4</h2>
+  </div>
+</div>
+
+</body>
 </html>
 
 

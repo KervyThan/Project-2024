@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODA | Attendance Track</title>
     <link rel="icon" href="images/City Logo.jpg">
-    <link rel="stylesheet" href="log.css" />
+    <link rel="stylesheet" href="Attendance Log.css" />
   </head>
   <body>
     <header class="header-container">
@@ -27,12 +27,19 @@
             </div>
           </li>
           <li><a href="information.php">Information</a></li>
-          <li><a href="log.php">Attendance Log</a></li>
+          <li><a href="Attendance log.php">Attendance Log</a></li>
         </ul>
       </nav>
       <div class="logout-btn">
-        <a href="dform.php">Logout</a>
+        <a href="TODA Form.php">Logout</a>
       </div>
     </header>
+
+    <div class="homecontainer">
+        <h1><i class="fas fa-home"></i> Home</h1>
+        <p class="name">John Kervy Jamito</p>
+      </div>
+
+      <div class="blankcontainer"></div>
   </body>
 </html>

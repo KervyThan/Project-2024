@@ -29,11 +29,11 @@
                   </div>
                 </li>
                 <li><a href="information.php">Information</a></li>
-                <li><a href="log.php">Attendance Log</a></li>
+                <li><a href="Attendance Log.php">Attendance Log</a></li>
             </ul>
       </nav>
       <div class="logout-btn">
-        <a href="dform.php">Logout</a>
+        <a href="TODA Form.php">Logout</a>
       </div>
     </header>
 
@@ -46,9 +46,7 @@
       </div>
 
     <div class="container">
-        <h1>ROUT SCHEDULE</h1>
-        
-        <table>
+      <table>
             <thead>
                 <tr>
                     <th>Name</th>
@@ -61,37 +59,43 @@
                     <td>Kervy Jamito</td>
                     <td>TD8569732</td>
                     <td>Phase 1</td>
-                    <td>05-12-24</td>
+                    <td>May 2024</td>
             </tbody>
             <tbody>
                     <td>Andrei Brosas</td>
                     <td>TD8569733</td>
                     <td>Phase 2</td>
-                    <td>05-12-24</td>
+                    <td>May 2024</td>
             </tbody>
             <tbody>
                     <td>Angelo Angeles</td>
                     <td>TD8569734</td>
                     <td>Phase 3</td>
-                    <td>05-12-24</td>
+                    <td>May 2024</td>
             </tbody>
             <tbody>
                     <td>Mark Lance Brioso</td>
                     <td>TD8569735</td>
                     <td>Phase 4</td>
-                    <td>05-12-24</td>
+                    <td>May 2024</td>
             </tbody>
             <tbody>
                     <td>Karl Brian Balang</td>
                     <td>TD8569736</td>
                     <td>Phase 2</td>
-                    <td>05-12-24</td>
+                    <td>May 2024</td>
             </tbody>
             <tbody>
                     <td>Jaymark Moreno</td>
                     <td>TD8569721</td>
                     <td>Phase 4</td>
-                    <td>05-12-24</td>
+                    <td>May 2024</td>
+            </tbody>
+            <tbody>
+                    <td>Ban Hyungseok</td>
+                    <td>TD8569721</td>
+                    <td>Phase 4</td>
+                    <td>May 2024</td>
             </tbody>
         </table>
     </div>
