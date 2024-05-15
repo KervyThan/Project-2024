@@ -35,4 +35,95 @@
       </div>
     </header>
   </body>
+
+  <main>
+
+  <div class="information01">
+        <h1 class="information1"><i class="infoh1"></i>Information</h1>
+        <p class="name">.......</p>
+      </div>
+
+    <div class="container1">
+        
+        <div class="info">
+            <label>Name:</label>
+            <p>John Doe</p>
+        </div>
+        <div class="info">
+            <label>Email:</label>
+            <p>johndoe@example.com</p>
+        </div>
+        <div class="info">
+            <label>Phone:</label>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="info">
+            <label>Address:</label>
+            <p>123 Main Street, City, Country</p>
+        </div>
+    </div>
+
+    <div class="container1">
+        
+        <div class="info">
+            <label>Name:</label>
+            <p>John Doe</p>
+        </div>
+        <div class="info">
+            <label>Email:</label>
+            <p>johndoe@example.com</p>
+        </div>
+        <div class="info">
+            <label>Phone:</label>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="info">
+            <label>Address:</label>
+            <p>123 Main Street, City, Country</p>
+        </div>
+    </div>
+
+    <div class="container1">
+        
+        <div class="info">
+            <label>Name:</label>
+            <p>John Doe</p>
+        </div>
+        <div class="info">
+            <label>Email:</label>
+            <p>johndoe@example.com</p>
+        </div>
+        <div class="info">
+            <label>Phone:</label>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="info">
+            <label>Address:</label>
+            <p>123 Main Street, City, Country</p>
+        </div>
+    </div>
+
+    <div class="container1">
+        
+        <div class="info">
+            <label>Name:</label>
+            <p>John Doe</p>
+        </div>
+        <div class="info">
+            <label>Email:</label>
+            <p>johndoe@example.com</p>
+        </div>
+        <div class="info">
+            <label>Phone:</label>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="info">
+            <label>Address:</label>
+            <p>123 Main Street, City, Country</p>
+        </div>
+    </div>
+
+  </main>
+
+
 </html>

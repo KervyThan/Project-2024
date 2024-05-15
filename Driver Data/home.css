@@ -12,7 +12,7 @@ body {
     justify-content: space-between; /* Changed from baseline */
     align-items: center;
     padding: 10px;
-    background-color: #212b38;
+    background-color: #071739;
     color: #fff;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .homecontainer{
   display: flex;
-  background-color: #2d3250;
+  background-color: #212b38;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -177,7 +177,7 @@ body {
   height: 500px;
   border-radius: 9px;
   padding: 10px;
-  background-color: #2d3250;
+  background-color: #212b38;
   display: flex;
 
 }

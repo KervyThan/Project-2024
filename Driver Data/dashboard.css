@@ -12,7 +12,7 @@ body {
     justify-content: space-between; /* Changed from baseline */
     align-items: center;
     padding: 10px;
-    background-color: #212b38;
+    background-color: #071739;
     color: #fff;
 }
 
@@ -129,7 +129,7 @@ body {
     font-size: 1rem;
     padding: 10px 15px;
     border: 1px solid #fff; /* Border around the logout button */
-    border-radius: 8px; /* Optional: Adds rounded corners */
+    border-radius: 9px; /* Optional: Adds rounded corners */
     transition: 0.2s ease;
 }
 
@@ -141,7 +141,7 @@ body {
 /*dashboardd container*/
 .homecontainer{
   display: flex;
-  background-color: #2d3250;
+  background-color: #212b38;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -178,7 +178,7 @@ body {
   margin: auto;
   border-radius: 9px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: #9e7f5d;
 }
 
 /* Table Styles */
@@ -194,15 +194,17 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 
+
+
 th {
   color: #ddd;
-  background-color: #171766;
+  background-color: #A68870;
   font-weight: bold;
-  border-radius: 18px;
+  border-radius: 8px;
 }
 
 .tbody {
-  color: white;
+  color: rgb(251, 240, 240);
 }
 
 
