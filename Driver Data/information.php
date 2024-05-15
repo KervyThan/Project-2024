@@ -40,7 +40,7 @@
 
   <div class="information01">
         <h1 class="information1"><i class="infoh1"></i>Information</h1>
-        <p class="name">.......</p>
+        <p class="name">Kervy Jamito</p>
       </div>
 
     <div class="container1">
