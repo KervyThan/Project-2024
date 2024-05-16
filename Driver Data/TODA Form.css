@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-.dform{
+*{
   margin: 0;
   padding: 20;
   box-sizing: border-box;
@@ -79,7 +78,7 @@
 }
 .wrapper form .row input{
   height: 100%;
-  width: 78%;
+  width: 100%;
   outline: none;
   padding-left: 60px;
   border-radius: 5px;
@@ -94,10 +93,9 @@ form .row input:focus{
 form .row input::placeholder{
   color: #999;
 }
-
 .wrapper form .row i{
   position: absolute;
-  width: 48px;
+  width: 47px;
   height: 100%;
   color: #fff;
   font-size: 18px;

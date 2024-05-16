@@ -37,8 +37,6 @@
       </div>
     </header>
 
-
-
     <main>
     <div class="homecontainer">
         <h1><i class="fas fa-columns"></i>Dashboard</h1>

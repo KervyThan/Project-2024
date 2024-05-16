@@ -14,6 +14,17 @@
         </div>
         <h1 class="header-title">Information</h1>
     </header>
+
+    <section class="records">
+    <div class="main-body">
+      <div class="search_bar">
+        <input type="search" placeholder="search">
+        <button class="edit-btn1">Create</button>
+        <button class="edit-btn">Delete</button>
+      </div>
+    </div>
+  </section>
+  
     <div class="users">
       <div class="card">
         <img src="images/Kervy.jpg">
@@ -38,8 +49,6 @@
         <button>Information</button>
       </div>
     </div>
-
-
 
     <div class="users">
       <div class="card">

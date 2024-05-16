@@ -19,23 +19,24 @@
         </div>
           <span>TODA Log</span>
         </div>
-        
-        <form action="home.php">
-          <div class="row">
-            <i class="fas fa-user"></i>
-            <input type="text" placeholder="Username ID" required>
+
+
+        <form action="home.php" method="POST">
+           <div class="row">
+           <i class="fas fa-user"></i>
+           <input type="text" name="username" placeholder="Username ID" required>
           </div>
           <div class="row">
-            <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password" required>
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password" placeholder="Password" required>
           </div>
           <div class="pass"><a href="#">Forgot password?</a></div>
           <div class="row button">
-            <input type="submit" value="Login">
-          </div>
-        </form>
+         <input type="submit" value="Login">
+         </div>
+         </form>
+
       </div>
     </div>
-
   </body>
 </html>

@@ -138,3 +138,41 @@ body {
     background-color: #fff; 
     color: #212b38; 
 }
+
+
+.homecontainer{
+  display: flex;
+  background-color: #212b38;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  width: 70%;
+  height: 50px;
+  margin: auto;
+  border-radius: 9px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fas.fa-tasks {
+  color:#16a085;
+}
+
+.name {
+  color:#16a085;
+}
+
+
+.blankcontainer {
+  border: none;
+  margin-top: 40px;
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  border-radius: 9px;
+  padding: 10px;
+  background-color: #212b38;
+  display: flex;
+}

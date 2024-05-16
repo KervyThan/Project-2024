@@ -9,184 +9,149 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-background-color: #1f2833;
-}
+  background: #071739;
 
+}
 nav{
   position: sticky;
   top: 0;
   bottom: 0;
   height: 100vh;
   left: 0;
-  width: 350px;
-  background: #ffffff;
+  width: 270px;
+  background: #fff;
   overflow: hidden;
-  transition: 1s;
-}
-nav:hover{
-  width: 1150px;
-  transition: 1s;
 }
 .logo{
   text-align: center;
   display: flex;
   margin: 10px 0 0 10px;
-  padding-bottom: 1rem;
+  padding-bottom: 20px;
 }
 .logo img{
-  width: 55px;
-  height: 55px;
-  border-radius: 80%;
+  width: 80px;
+  height: 80px;
+  border-radius: 60%;
 }
 .logo span{
   font-weight: bold;
-  padding-left: 15px;
+  padding-left: 10px;
   font-size: 18px;
   text-transform: uppercase;
 }
 a{
   position: relative;
   width: 280px;
+  margin-top: auto;
   font-size: 14px;
   color: rgb(85, 83, 83);
   display: table;
-  padding: 10px;
+  padding: 5px;
 }
+
+
 nav .fas{
   position: relative;
   width: 70px;
   height: 40px;
-  top: 20px;
+  top: 13px;
   font-size: 20px;
   text-align: center;
+  color: #071739;
 }
 .nav-item{
   position: relative;
-  top: 17px;
+  top: 10px;
   margin-left: 10px;
+  margin-bottom: 50px;
+  padding: 5px;
 }
+.nav-items {
+  position: relative;
+  top: 15px;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 500px; 
+}
+a.logo .nav-items {
+  font-size: 30px;
+}
+
 a:hover{
   background: #eee;
 }
 a:hover i{
-  color: #71eb14;
+  color: blue;
   transition: 0.5s;
 }
 .logout{
   position: absolute;
   bottom: 0;
 }
-
-
-/* Overview Panel Section */
-
-.container {
+.container{
   display: flex;
 }
 
-.dashboard-panel {
-  flex-grow: 1;
-  padding: 20px;
+/* Add these styles to your existing CSS file */
+
+.dashboard {
+  width: 400px;
+  padding: 10px;
+  margin-left: 65px;
+  margin-right: 1px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  flex-grow: 0.5;
 }
 
-.container-box {
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.notifications p,
-.announcement p {
-  margin-bottom: 15px;
-}
-
-.view-details-btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.route-management,
-.vehicle-management,
-.driver-management {
+.overview {
   margin-bottom: 30px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
+.metrics {
+  display: flex;
+  width: 850px;
+  margin: auto;
+  margin-left: 100px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-caption {
-  font-weight: bold;
-  margin-bottom: 10px;
+.metric1 {
+  background: #0bc017;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 45%;
 }
 
-th,
-td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+.metric2 {
+  background: #0911a3;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 45%;
 }
 
-th {
-  background-color: #f2f2f2;
+.p{
+  color: #fff;
 }
 
-/* announcement and update display */
+.charts {
+  margin-top: 100px;
+  margin-left: 95px;
+  margin-bottom: 40px;
+  width: 1400px;
+  height: auto;
 
-main {
-  margin: 0;
-  padding: 0;
-  }
-  
-  section {
-    width: 90%;
-    height: 100vh;
-  }
-  
-  .leftbox {
-    width: 50%;
-    height: 100%;
-    float: left;
-    padding: 50px;
-    box-sizing: border-box;
-  }
-  
-  .leftcontent {
-    color: #fff;
-    background: rgba(0,0,0,.5);
-    padding: 40px;
-    transition: 1s;
-  }
-  
-  section .leftbox .leftcontent:hover {
-    background: #6284e8;
-  }
-  
-  section .leftbox .leftcontent h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 30px;
-    text-transform: uppercase;
-  }
-  
-  section .leftbox .leftcontent p {
-    margin: 10px 0 0;
-    padding: 0;
-  
-  }
+}
 
-  .upddetails {
-    color: #fff;
-  }
+.charts img {
+  max-width: 100%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 

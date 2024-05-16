@@ -1,88 +1,247 @@
 /* HEADER SECTION */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #212b38 ;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #071739 ;
+  color: #fff;
 }
 
 .logo-section {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .logo {
-    width: 50px;
-    height: auto;
-    border-radius: 60%;
+  width: 50px;
+  height: auto;
+  border-radius: 60%;
 }
 
 .header-title {
-    margin: 0;
+  margin: 0;
 }
 
 /*search bar*/
 .button {
-    text-align: center;
-    margin-top: 40px;
-    margin-left: -1200px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: -1200px;
 }
-  
+
 .button input[type="text"] {
-    padding: 15px;
-    width: 300px;
-    background-color: #ffffff;
-    border: 5px bold #212b38;
-    border-radius: 5px;
-    box-sizing: border-box;
+  padding: 15px;
+  width: 300px;
+  background-color: #071739;
+  border: 5px bold #071739;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
-  
+
 .button input[type="text"]:focus {
-    outline: none;
-    border-color: #212b38;
-    box-shadow: 0 0 5px #4CAF50;
+  outline: none;
+  border-color: #212b38;
+  box-shadow: 0 0 5px #4CAF50;
 }
-  
+
 
 
 .container{
-    width: 200px;
-    padding: 20px;
-    margin: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .Boxcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .box {
-    width: 200px;
-    padding: 20px;
-    margin: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .box h2 {
-    margin-bottom: 10px;
-  }
-  
-  .box p {
-    font-size: 14px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.box h2 {
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 14px;
+}
+
+
+/* Section */
+.records{
+  width: 100%;
+}
+.records-top{
+  width: 100%;
+  background: #071739;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(43, 43, 43);
+}
+.records-body{
+  padding: 10px 10px 10px 20px;
+}
+h1{
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.text.logo{
+  width: 30px;
+  height: 30px;
+}
+.job_card{
+  width: 96%;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  border-radius: none;
+  background: #071739 ;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  border: 2px solid rgb(190, 190, 190);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.job_details{
+  display: flex;
+}
+.job_details .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job_details .img i{
+  width: 70px;
+  font-size: 3rem;
+  margin-left: 1rem;
+  padding: 10px;
+  color: rgb(82, 22, 138);
+  background: rgb(216, 205, 226);
+}
+.job_details .text{
+  margin-left: 2.3rem;
+}
+.job_details .text span{
+  color: rgb(116, 112, 112);
+}
+.job_salary{
+  text-align: right;
+  color: rgb(54, 54, 54);
+}
+.job_card:active{
+  border: 2px solid blueviolet;
+  transition: 0.4s;
+}
+
+.add-btn {
+  margin: 10px;
+  padding: 10px;
+  background-color: #a4b5c4;
+  font-family: sans-serif;
+  font-size: large;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+}
+
+.add-btn {
+  border-radius: 0px;
+}
+
+
+.job_card {
+  display: flex;
+  align-items: center;
+}
+
+.job_details {
+  flex: 1;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.record_info h1,
+.record_info span {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right side */
+}
+
+.search_bar{
+  display: flex;
+  padding: 10px;
+  margin-left: 10px;
+  align-items: center;
+  color: #000000;
+}
+.search_bar input{
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 0px;
+}
+
+
+.edit-btn1 {
+  padding: 10px;
+  background-color: #4B6382;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+  margin-left: 400px;
+}
+
+.edit-btn {
+  margin: 10px 5px; /* Added margin-right and adjusted margins */
+  padding: 10px;
+  background-color: #4B6382;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+  margin-left: auto; /* This ensures the buttons stay on the right side */
+}  

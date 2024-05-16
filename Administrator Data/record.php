@@ -15,30 +15,70 @@
         <h1 class="header-title">Records</h1>
     </header>
 
-    <form>
-          <div class="button">
-            <input type="text" placeholder="Username ID" required>
+    <section class="records">
+    <div class="main-body">
+      <div class="search_bar">
+        <input type="search" placeholder="search record">
+        <button class="edit-btn">Create</button>
+      </div>
+    </div>
+  </section>
+  <div class="job_card">
+        <div class="job_details">
+          <div class="text"> 
+          <img src="images/City Logo.jpg" alt="Logo" class="logo">
+          <h1>RECORD | MAY 2024</h1>
           </div>
-    </form>
+        </div>
+        <button class="add-btn">VIEW</button>
+        </div>
+      </div>
 
-    <div class="container"></div>
+      <div class="job_card">
+        <div class="job_details">
+          <div class="text">
+          <img src="images/City Logo.jpg" alt="Logo" class="logo">
+          <h1>RECORD | APRIL 2024</h1>
+          </div>
+        </div>
+        <button class="add-btn">VIEW</button>
+        </div>
+      </div>
 
-    <div class="Boxcontainer">
-  <div class="box">
-    <h2>Container 1</h2>
-  </div>
-  <div class="box">
-    <h2>Container 2</h2>
-  </div>
-  <div class="box">
-  </div>
-  <div class="box">
-    <h2>Container 4</h2>
-  </div>
-</div>
+      <div class="job_card">
+        <div class="job_details">
+          <div class="text">
+          <img src="images/City Logo.jpg" alt="Logo" class="logo">
+            <h1>RECORD | MARCH 2024</h1>
+          </div>
+        </div>
+        <button class="add-btn">VIEW</button>
+        </div>
+      </div>
 
+      <div class="job_card">
+        <div class="job_details">
+          <div class="text">      
+          <img src="images/City Logo.jpg" alt="Logo" class="logo">
+          <h1>RECORD | FEBRUARY 2024</h1>
+          </div>
+        </div>
+        <button class="add-btn">VIEW</button>
+        </div>
+      </div>
+
+      <div class="job_card">
+        <div class="job_details">
+          <div class="text"> 
+          <img src="images/City Logo.jpg" alt="Logo" class="logo">
+          <h1>RECORD | JANUARY</h1>
+          </div>
+        </div>
+        <button class="add-btn">VIEW</button>
+        </div>
+      </div>
+    </div>
+    </section>
+  </div>
 </body>
 </html>
-
-
-

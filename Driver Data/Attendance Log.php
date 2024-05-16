@@ -6,6 +6,7 @@
     <title>TODA | Attendance Track</title>
     <link rel="icon" href="images/City Logo.jpg">
     <link rel="stylesheet" href="Attendance Log.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
   <body>
     <header class="header-container">
@@ -36,7 +37,7 @@
     </header>
 
     <div class="homecontainer">
-        <h1><i class="fas fa-home"></i> Home</h1>
+        <h1><i class="fas fa-tasks"></i> Attendance Log</h1>
         <p class="name">John Kervy Jamito</p>
       </div>
 

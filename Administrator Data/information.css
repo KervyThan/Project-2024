@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #212b38;
+    background-color: #071739;
     color: #fff;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 body {
-  background-color: #37465b;
+  background-color: #ffffff;
 }
 
   /* INFORMATION SECTION */
@@ -87,6 +87,46 @@ body {
     transition: 0.5s;
   }
 
+  .search_bar{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    align-items: center;
+    color: #000000;
+  }
+  .search_bar input{
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 0px;
+  }
+
+
+  .edit-btn1 {
+    padding: 10px;
+    background-color: #4B6382;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 10%;
+    height: 40px;
+    margin-left: 400px;
+  }
+
+  .edit-btn {
+    margin: 10px 5px; /* Added margin-right and adjusted margins */
+    padding: 10px;
+    background-color: #4B6382;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 10%;
+    height: 40px;
+    margin-left: auto; /* This ensures the buttons stay on the right side */
+  }  
+  
   
 
   
