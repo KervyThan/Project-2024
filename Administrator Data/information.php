@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information</title>
-    <link rel="icon" href="images/City Logo.jpg">
-    <link rel="stylesheet" href="information.css">
+  <meta charset="UTF-8" />
+  <title>Admin | Information</title>
+  <link rel="icon" href="images/City Logo.jpg">
+  <link rel="stylesheet" href="information.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
-<body>
-    <header class="header-container">
+   <body>
+   <header class="header-container">
+         <div class="menu">
+            <li><a href="Admin.php"><span class="fas fa-home"></span></a></li>
+            <li><a href="route.php"><span class="fas fa-columns"></span></a></li>
+            <li><a href="log.php"><span class="fas fa-tasks"></span></a></li>
+            <li><a href="information.php"><span class="fas fa-user"></span></a></li>
+            <li><a href="record.php"><span class="fas fa-table"></span></a></li>
+            <div class="logout-btn">
+            <a href="Admin Login.php">Logout</a>
+         </div>
+      </header>
+
+      <div class="container">
         <div class="logo-section">
             <img src="images/City Logo.jpg" alt="Logo" class="logo">
         </div>
         <h1 class="header-title">Information</h1>
-    </header>
+      </div>
 
-    <section class="records">
+      <section class="records">
     <div class="main-body">
       <div class="search_bar">
         <input type="search" placeholder="search">
@@ -99,7 +111,6 @@
         <button>Information</button>
       </div>
     </div>
-
-</body>
+   </body>
 </html>
 

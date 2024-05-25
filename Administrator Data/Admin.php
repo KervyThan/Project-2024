@@ -8,70 +8,199 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <ul>
-        <li>
-          <a  class="logo">
-            <img src="images/City Logo.jpg" alt="City Logo">
-            <span class="nav-items">ADMIN</span>
-          </a>
-        </li>
-        <li>
-          <a href="Route Management.php" id="dashboardLink">
-            <i class="fas fa-columns"></i>
-            <span class="nav-item">Route Management</span>
-          </a>
-        </li>
-        <li>
-          <a href="Log Management.php" id="managementLink">
-            <i class="fas fa-tasks"></i>
-            <span class="nav-item">Log Management</span>
-          </a>
-        </li>
-        <a href="information.php" id="informationLink">
-          <i class="fas fa-user"></i>
-          <span class="nav-item">Information</span>
-        </a>
-      </li>
-        <li>
-          <a href="record.php" id="recordLink">
-            <i class="fas fa-table"></i>
-            <span class="nav-item">Records</span>
-          </a>
-        </li>
-</li>
-      <li>
-        <li>
-          <a href="Admin Login.php" class="logout">
-            <i class="fas fa-sign-out-alt"></i>
-            <span class="nav-item">Log out</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    </nav>
+      <header class="header-container">
+         <div class="menu">
+            <li><a href="Admin.php"><span class="fas fa-home"></span></a></li>
+            <li><a href="route.php"><span class="fas fa-columns"></span></a></li>
+            <li><a href="log.php"><span class="fas fa-tasks"></span></a></li>
+            <li><a href="information.php"><span class="fas fa-user"></span></a></li>
+            <li><a href="record.php"><span class="fas fa-table"></span></a></li>
+            <div class="logout-btn">
+            <a href="Admin Login.php">Logout</a>
+         </div>
+      </header>
 
+      <div class="container">
+        <div class="logo-section">
+            <img src="images/City Logo.jpg" alt="Logo" class="logo">
+        </div>
+        <h1 class="header-title">Home</h1>
+      </div>
 
+      <div class="main-body">
+      <div class="promo_card">
+        <h1>Administrator Management</h1>
+        <span>Drivers Monitoring</span>
+        <button>Total Drivers : 165</button>
+        <button>Active Drivers : 113</button>
+        <button>Inactive Drivers : 52 </button>
+      </div>
 
-    <div class="dashboard">
-      <div class="overview">
-        <div class="metrics">
-          <div class="metric1">
-            <h3>Total Drivers Active</h3>
-            <p>400</p>
+      <div class="history_lists">
+        <div class="Violations">
+          <div class="row">
+            <h4>Drivers Violation</h4>
+            <a href="#">See all</a>
           </div>
-          <div class="metric2">
-            <h3>Total Drivers Inactive</h3>
-            <p>385</p>
-          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Dates</th>
+                <th>Time</th>
+                <th>Name</th>
+                <th>TODA ID</th>
+                <th>Violation</th>
+                <th>Punishment</th>
+                <th>Fee</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>May 24, 2024</td>
+                <td>3:30 PM</td>
+                <td>Kervy Jamito</td>
+                <td>TD8569721</td>
+                <td>Expired Vehicle Registration</td>
+                <td>TODA ID Revocation</td>
+                <td>PHP 00.0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         </div>
       </div>
-      <div class="charts">
-        <h2>Daily Drivers Activity</h2>
-        <img src="images/Graph-SEGES-experiment.jpg" alt="Chart Image">
-      </div>
     </div>
-  </div>
 </body>
 </html>

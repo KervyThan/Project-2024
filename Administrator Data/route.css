@@ -8,7 +8,6 @@
 }
 .header-container{
   height: 60px;
-  top: auto;
   width: 1525px;
   line-height: 60px;
   background: #171e27;
@@ -33,7 +32,6 @@
 .header-container .menu li:hover a{
   color: #726eff;
 }
-
 .logout-btn {
   margin-right: 20px;
 }
@@ -76,49 +74,73 @@
     margin: 0;
 }
 
+  /* MANAGEMENT SECTION */
+  .table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-top: 20px;
+    margin-bottom: auto;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius:0;
+  }
+  table thead tr{
+    color: #fff;
+    background: #071739;
+    text-align: left;
+    font-weight: bold;
+  }
+  .table th,
+  .table td{
+    padding: 12px 15px;
+  }
+  .table tbody tr{
+    border-bottom: 1px solid #ddd;
+  }
+  .table tbody tr:nth-of-type(odd){
+    background: #f3f3f3;
+  }
+  .table tbody tr:last-of-type{
+    border-bottom: 2px solid;
+  }
 
-/* Main Body Section */
-.main-body{
-  width: 70%;
-  padding: 1rem;
-}
-.promo_card{
-  width: 1500px;
-  color: #fff;
-  margin-top: 10px;
-  border-radius: 8px;
-  padding: 0.5rem 1rem 1rem 3rem;
-  background: rgb(37, 37, 37);
-}
-.promo_card h1, .promo_card span, button{
-  margin: 10px;
-}
-.promo_card button{
-  padding: 6px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+  .search_bar{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    align-items: center;
+    color: #000000;
+  }
+  .search_bar input{
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 0px;
+  }
 
-.history_lists{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-table{
-  width: 1500px;
-  background: #071739;
-  text-align: left;
-  border-radius: 10px;
-}
-table td, th{
-  padding: 0.2rem 0.8rem;
-}
-table th{
-  font-size: 15px;
-  color: #000000;
-}
-table td{
-  font-size: 13px;
-  color: #fff;
-}
+  .edit-btn1 {
+    padding: 10px;
+    background-color: #071739;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 10%;
+    height: 40px;
+    margin-left: 400px;
+  }
+
+  .edit-btn {
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: #071739;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 10%;
+    height: 40px;
+    margin-left: auto;
+  }  

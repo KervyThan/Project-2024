@@ -37,8 +37,5 @@
          </form>
       </div>
     </div>
-    <footer>
-      Prototype @ Project 2024 
-    </footer>
   </body>
 </html>

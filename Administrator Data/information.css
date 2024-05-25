@@ -1,11 +1,58 @@
-/* HEADER SECTION */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* NAVIGATION SECTION */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.header-container{
+  height: 60px;
+  width: 1525px;
+  line-height: 60px;
+  background: #171e27;
+  place-items: center;
+  text-align: center;
+}
+.header-container .menu{
+  display: flex;
+  position: relative;
+}
+.header-container .menu li{
+  list-style: none;
+  flex: 1;
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+.header-container .menu li a{
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+.header-container .menu li:hover a{
+  color: #726eff;
+}
+.logout-btn {
+  margin-right: 20px;
 }
 
-.header-container {
+.logout-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  border-radius: 5px; 
+  transition: 0.2s ease;
+}
+
+.logout-btn a:hover {
+  background-color: #fff; 
+  color: #212b38; 
+}
+
+/* PAGE SECTION */
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,23 +60,19 @@ body {
     background-color: #071739;
     color: #fff;
 }
-
+  
 .logo-section {
     margin-right: 20px;
 }
-
+  
 .logo {
     width: 50px;
     height: auto;
     border-radius: 60%;
 }
-
+  
 .header-title {
     margin: 0;
-}
-
-body {
-  background-color: #ffffff;
 }
 
   /* INFORMATION SECTION */
@@ -40,7 +83,7 @@ body {
   .users .card{
     width: 25%;
     margin: 10px;
-    background: #171e27;
+    background: #212b38;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
@@ -104,7 +147,7 @@ body {
 
   .edit-btn1 {
     padding: 10px;
-    background-color: #4B6382;
+    background-color: #071739;
     color: #fff;
     border: none;
     border-radius: 0px;
@@ -115,18 +158,16 @@ body {
   }
 
   .edit-btn {
-    margin: 10px 5px; /* Added margin-right and adjusted margins */
+    margin: 10px 5px; 
     padding: 10px;
-    background-color: #4B6382;
+    background-color: #071739;
     color: #fff;
     border: none;
     border-radius: 0px;
     cursor: pointer;
     width: 10%;
     height: 40px;
-    margin-left: auto; /* This ensures the buttons stay on the right side */
+    margin-left: auto; 
   }  
   
-  
-
   
