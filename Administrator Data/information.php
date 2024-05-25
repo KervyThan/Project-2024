@@ -46,18 +46,24 @@
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Angelo.jpg">
-        <h4>Angelo Angeles</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Lance.jpg">
-        <h4>Lance Brioso</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Jaymark.jpg">
-        <h4>Jaymark Moreno</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
     </div>
@@ -65,49 +71,60 @@
     <div class="users">
       <div class="card">
         <img src="images/Kervy.jpg">
-        <h4>Kervy</h4>
+        <h4>Kervy Jamito</h4>
         <div class="per">
         </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Angelo.jpg">
-        <h4>Angelo</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Lance.jpg">
-        <h4>Lance</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Jaymark.jpg">
-        <h4>Jaymark</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
     </div>
-
     <div class="users">
       <div class="card">
         <img src="images/Kervy.jpg">
-        <h4>Kervy</h4>
+        <h4>Kervy Jamito</h4>
         <div class="per">
         </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Angelo.jpg">
-        <h4>Angelo</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Lance.jpg">
-        <h4>Lance</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
       <div class="card">
-        <img src="images/Jaymark.jpg">
-        <h4>Jaymark</h4>
+        <img src="images/Kervy.jpg">
+        <h4>Kervy Jamito</h4>
+        <div class="per">
+        </div>
         <button>Information</button>
       </div>
     </div>

@@ -17,9 +17,8 @@
           <div class="logo-section">
             <img src="images/City Logo.jpg" alt="Logo" class="logo">
         </div>
-          <span>Admin Log</span>
+          <span>Admin</span>
         </div>
-
 
         <form action="Admin.php" method="POST">
            <div class="row">
